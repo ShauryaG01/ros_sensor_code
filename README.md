@@ -1,2 +1,3 @@
 # ros_sensor_code
-all sensor code for science task
+all sensor code for arduino using ROS framework
+
