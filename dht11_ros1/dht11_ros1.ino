@@ -27,12 +27,12 @@ void setup()
 void loop()
 {
   int chk = DHT.read11(DHT11_PIN);
-  Serial.print("temperature = ");
+ // Serial.print("temperature = ");
   int a = DHT.temperature;
-  Serial.println(DHT.temperature);
-  Serial.print("humidity = ");
+ // Serial.println(DHT.temperature);
+ // Serial.print("humidity = ");
   int b = DHT.humidity;
-  Serial.println(DHT.humidity);
+ // Serial.println(DHT.humidity);
   delay(2000);
      
    rel_humidity.data = b;
